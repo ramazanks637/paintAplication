@@ -51,7 +51,6 @@ namespace paintAplication
 		public Form1()
         {
             InitializeComponent();
-			InitializeComponent();
 			//Initializing the value of color to be black
 			linePaintColor = Color.Black;
 			//Setting a pen with default color as linepaintcolor and size of 1
