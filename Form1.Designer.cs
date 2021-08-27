@@ -769,7 +769,7 @@ namespace paintAplication
             // 
             this.newMSI.Image = global::paintAplication.Properties.Resources.file;
             this.newMSI.Name = "newMSI";
-            this.newMSI.Size = new System.Drawing.Size(141, 22);
+            this.newMSI.Size = new System.Drawing.Size(180, 22);
             this.newMSI.Text = "Yeni";
             // 
             // Form1
