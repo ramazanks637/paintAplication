@@ -1,17 +1,17 @@
-﻿
-namespace paintAplication
+﻿namespace paintAplication
+
 {
     partial class Form1
     {
         /// <summary>
-        ///Gerekli tasarımcı değişkeni.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///Kullanılan tüm kaynakları temizleyin.
+        /// Clean up any resources being used.
         /// </summary>
-        ///<param name="disposing">yönetilen kaynaklar dispose edilmeliyse doğru; aksi halde yanlış.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -21,48 +21,15 @@ namespace paintAplication
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer üretilen kod
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Tasarımcı desteği için gerekli metot - bu metodun 
-        ///içeriğini kod düzenleyici ile değiştirmeyin.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.RGBColors = new System.Windows.Forms.PictureBox();
-            this.saveAsMSI = new System.Windows.Forms.ToolStripMenuItem();
-            this.recentItems = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutMSI = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.pencilBtn = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
-            this.pencilSize = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
-            this.eraserBtn = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
-            this.brushBtn = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
-            this.brushSize = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel7 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
-            this.lineBtn = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator16 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
-            this.undoButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.RedoButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.progressBar = new System.Windows.Forms.ToolStripProgressBar();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.saveMSI = new System.Windows.Forms.ToolStripMenuItem();
-            this.paintingCanvas = new System.Windows.Forms.PictureBox();
-            this.openMSI = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
@@ -95,11 +62,39 @@ namespace paintAplication
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.newMSI = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.RGBColors)).BeginInit();
-            this.toolStrip1.SuspendLayout();
-            this.toolStrip2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.paintingCanvas)).BeginInit();
+            this.openMSI = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveMSI = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAsMSI = new System.Windows.Forms.ToolStripMenuItem();
+            this.recentItems = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutMSI = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.pencilBtn = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
+            this.pencilSize = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
+            this.eraserBtn = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
+            this.brushBtn = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
+            this.brushSize = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel7 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
+            this.lineBtn = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator16 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.undoButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.RedoButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.progressBar = new System.Windows.Forms.ToolStripProgressBar();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.RGBColors = new System.Windows.Forms.PictureBox();
+            this.paintingCanvas = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
@@ -130,299 +125,12 @@ namespace paintAplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.toolStrip2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RGBColors)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.paintingCanvas)).BeginInit();
             this.SuspendLayout();
-            // 
-            // RGBColors
-            // 
-            this.RGBColors.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RGBColors.BackgroundImage")));
-            this.RGBColors.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.RGBColors.Location = new System.Drawing.Point(12, 3);
-            this.RGBColors.Name = "RGBColors";
-            this.RGBColors.Size = new System.Drawing.Size(44, 39);
-            this.RGBColors.TabIndex = 0;
-            this.RGBColors.TabStop = false;
-            // 
-            // saveAsMSI
-            // 
-            this.saveAsMSI.Image = global::paintAplication.Properties.Resources.icon__2_;
-            this.saveAsMSI.Name = "saveAsMSI";
-            this.saveAsMSI.Size = new System.Drawing.Size(141, 22);
-            this.saveAsMSI.Text = "Farklı Kaydet";
-            // 
-            // recentItems
-            // 
-            this.recentItems.Name = "recentItems";
-            this.recentItems.Size = new System.Drawing.Size(88, 20);
-            this.recentItems.Text = "Son Açılanlar";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aboutMSI});
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
-            this.aboutToolStripMenuItem.Text = "Hakkımızda";
-            // 
-            // aboutMSI
-            // 
-            this.aboutMSI.Name = "aboutMSI";
-            this.aboutMSI.Size = new System.Drawing.Size(188, 22);
-            this.aboutMSI.Text = "About the Developers";
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.AutoSize = false;
-            this.toolStrip1.BackColor = System.Drawing.Color.Transparent;
-            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pencilBtn,
-            this.toolStripSeparator10,
-            this.toolStripLabel5,
-            this.pencilSize,
-            this.toolStripSeparator11,
-            this.eraserBtn,
-            this.toolStripSeparator12,
-            this.brushBtn,
-            this.toolStripSeparator13,
-            this.toolStripLabel6,
-            this.brushSize,
-            this.toolStripSeparator14,
-            this.toolStripLabel7,
-            this.toolStripSeparator15,
-            this.lineBtn,
-            this.toolStripSeparator16});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(431, 35);
-            this.toolStrip1.TabIndex = 10;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // pencilBtn
-            // 
-            this.pencilBtn.AutoSize = false;
-            this.pencilBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pencilBtn.CheckOnClick = true;
-            this.pencilBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.pencilBtn.Image = ((System.Drawing.Image)(resources.GetObject("pencilBtn.Image")));
-            this.pencilBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.pencilBtn.Name = "pencilBtn";
-            this.pencilBtn.Size = new System.Drawing.Size(30, 30);
-            this.pencilBtn.Text = "toolStripButton1";
-            this.pencilBtn.ToolTipText = "Pencil";
-            // 
-            // toolStripSeparator10
-            // 
-            this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 35);
-            // 
-            // toolStripLabel5
-            // 
-            this.toolStripLabel5.Name = "toolStripLabel5";
-            this.toolStripLabel5.Size = new System.Drawing.Size(81, 32);
-            this.toolStripLabel5.Text = "Kalem Boyutu";
-            // 
-            // pencilSize
-            // 
-            this.pencilSize.AutoSize = false;
-            this.pencilSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.pencilSize.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3"});
-            this.pencilSize.Name = "pencilSize";
-            this.pencilSize.Size = new System.Drawing.Size(30, 23);
-            // 
-            // toolStripSeparator11
-            // 
-            this.toolStripSeparator11.Name = "toolStripSeparator11";
-            this.toolStripSeparator11.Size = new System.Drawing.Size(6, 35);
-            // 
-            // eraserBtn
-            // 
-            this.eraserBtn.AutoSize = false;
-            this.eraserBtn.CheckOnClick = true;
-            this.eraserBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.eraserBtn.Image = ((System.Drawing.Image)(resources.GetObject("eraserBtn.Image")));
-            this.eraserBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.eraserBtn.Name = "eraserBtn";
-            this.eraserBtn.Size = new System.Drawing.Size(30, 30);
-            this.eraserBtn.Text = "toolStripButton2";
-            this.eraserBtn.ToolTipText = "Eraser";
-            // 
-            // toolStripSeparator12
-            // 
-            this.toolStripSeparator12.Name = "toolStripSeparator12";
-            this.toolStripSeparator12.Size = new System.Drawing.Size(6, 35);
-            // 
-            // brushBtn
-            // 
-            this.brushBtn.AutoSize = false;
-            this.brushBtn.CheckOnClick = true;
-            this.brushBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.brushBtn.Image = ((System.Drawing.Image)(resources.GetObject("brushBtn.Image")));
-            this.brushBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.brushBtn.Name = "brushBtn";
-            this.brushBtn.Size = new System.Drawing.Size(30, 30);
-            this.brushBtn.Text = "toolStripButton3";
-            this.brushBtn.ToolTipText = "Brush";
-            // 
-            // toolStripSeparator13
-            // 
-            this.toolStripSeparator13.Name = "toolStripSeparator13";
-            this.toolStripSeparator13.Size = new System.Drawing.Size(6, 35);
-            // 
-            // toolStripLabel6
-            // 
-            this.toolStripLabel6.Name = "toolStripLabel6";
-            this.toolStripLabel6.Size = new System.Drawing.Size(70, 32);
-            this.toolStripLabel6.Text = "Silgi Boyutu";
-            // 
-            // brushSize
-            // 
-            this.brushSize.AutoSize = false;
-            this.brushSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.brushSize.Items.AddRange(new object[] {
-            "5",
-            "6",
-            "7",
-            "8"});
-            this.brushSize.Name = "brushSize";
-            this.brushSize.Size = new System.Drawing.Size(30, 23);
-            // 
-            // toolStripSeparator14
-            // 
-            this.toolStripSeparator14.Name = "toolStripSeparator14";
-            this.toolStripSeparator14.Size = new System.Drawing.Size(6, 35);
-            // 
-            // toolStripLabel7
-            // 
-            this.toolStripLabel7.Name = "toolStripLabel7";
-            this.toolStripLabel7.Size = new System.Drawing.Size(44, 32);
-            this.toolStripLabel7.Text = "Şekiller";
-            // 
-            // toolStripSeparator15
-            // 
-            this.toolStripSeparator15.Name = "toolStripSeparator15";
-            this.toolStripSeparator15.Size = new System.Drawing.Size(6, 35);
-            // 
-            // lineBtn
-            // 
-            this.lineBtn.AutoSize = false;
-            this.lineBtn.CheckOnClick = true;
-            this.lineBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.lineBtn.Image = ((System.Drawing.Image)(resources.GetObject("lineBtn.Image")));
-            this.lineBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.lineBtn.Name = "lineBtn";
-            this.lineBtn.Size = new System.Drawing.Size(30, 30);
-            this.lineBtn.Text = "toolStripButton4";
-            this.lineBtn.ToolTipText = "Line";
-            // 
-            // toolStripSeparator16
-            // 
-            this.toolStripSeparator16.Name = "toolStripSeparator16";
-            this.toolStripSeparator16.Size = new System.Drawing.Size(6, 35);
-            // 
-            // toolStrip2
-            // 
-            this.toolStrip2.AutoSize = false;
-            this.toolStrip2.BackColor = System.Drawing.Color.Transparent;
-            this.toolStrip2.CanOverflow = false;
-            this.toolStrip2.Dock = System.Windows.Forms.DockStyle.None;
-            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.undoButton,
-            this.toolStripSeparator1,
-            this.RedoButton,
-            this.toolStripSeparator2,
-            this.progressBar});
-            this.toolStrip2.Location = new System.Drawing.Point(0, 57);
-            this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(414, 35);
-            this.toolStrip2.TabIndex = 11;
-            this.toolStrip2.Text = "toolStrip2";
-            // 
-            // undoButton
-            // 
-            this.undoButton.AutoSize = false;
-            this.undoButton.CheckOnClick = true;
-            this.undoButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.undoButton.Image = global::paintAplication.Properties.Resources.icon__1_;
-            this.undoButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.undoButton.Name = "undoButton";
-            this.undoButton.Size = new System.Drawing.Size(30, 30);
-            this.undoButton.Text = "Undo";
-            this.undoButton.ToolTipText = "Undo";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 35);
-            // 
-            // RedoButton
-            // 
-            this.RedoButton.AutoSize = false;
-            this.RedoButton.CheckOnClick = true;
-            this.RedoButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.RedoButton.Image = global::paintAplication.Properties.Resources.redo_arrow;
-            this.RedoButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.RedoButton.Name = "RedoButton";
-            this.RedoButton.Size = new System.Drawing.Size(30, 30);
-            this.RedoButton.Text = "Redo";
-            this.RedoButton.ToolTipText = "Redo";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 35);
-            // 
-            // progressBar
-            // 
-            this.progressBar.AutoSize = false;
-            this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(100, 20);
-            // 
-            // panel1
-            // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.RGBColors);
-            this.panel1.Location = new System.Drawing.Point(807, 27);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(69, 67);
-            this.panel1.TabIndex = 7;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = " Edit Colors";
-            // 
-            // saveMSI
-            // 
-            this.saveMSI.Image = global::paintAplication.Properties.Resources.save__1_;
-            this.saveMSI.Name = "saveMSI";
-            this.saveMSI.Size = new System.Drawing.Size(141, 22);
-            this.saveMSI.Text = "Kaydet";
-            // 
-            // paintingCanvas
-            // 
-            this.paintingCanvas.BackColor = System.Drawing.Color.White;
-            this.paintingCanvas.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.paintingCanvas.Location = new System.Drawing.Point(0, 100);
-            this.paintingCanvas.Name = "paintingCanvas";
-            this.paintingCanvas.Size = new System.Drawing.Size(885, 512);
-            this.paintingCanvas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.paintingCanvas.TabIndex = 12;
-            this.paintingCanvas.TabStop = false;
-            // 
-            // openMSI
-            // 
-            this.openMSI.Image = global::paintAplication.Properties.Resources.folder;
-            this.openMSI.Name = "openMSI";
-            this.openMSI.Size = new System.Drawing.Size(141, 22);
-            this.openMSI.Text = "Aç";
             // 
             // panel2
             // 
@@ -456,10 +164,10 @@ namespace paintAplication
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(434, 27);
+            this.panel2.Location = new System.Drawing.Point(530, 27);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(367, 67);
-            this.panel2.TabIndex = 8;
+            this.panel2.TabIndex = 2;
             // 
             // pictureBox28
             // 
@@ -470,6 +178,7 @@ namespace paintAplication
             this.pictureBox28.Size = new System.Drawing.Size(19, 19);
             this.pictureBox28.TabIndex = 27;
             this.pictureBox28.TabStop = false;
+            this.pictureBox28.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox27
             // 
@@ -480,6 +189,7 @@ namespace paintAplication
             this.pictureBox27.Size = new System.Drawing.Size(19, 19);
             this.pictureBox27.TabIndex = 26;
             this.pictureBox27.TabStop = false;
+            this.pictureBox27.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox26
             // 
@@ -490,6 +200,7 @@ namespace paintAplication
             this.pictureBox26.Size = new System.Drawing.Size(19, 19);
             this.pictureBox26.TabIndex = 25;
             this.pictureBox26.TabStop = false;
+            this.pictureBox26.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox25
             // 
@@ -500,6 +211,7 @@ namespace paintAplication
             this.pictureBox25.Size = new System.Drawing.Size(19, 19);
             this.pictureBox25.TabIndex = 24;
             this.pictureBox25.TabStop = false;
+            this.pictureBox25.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox24
             // 
@@ -510,6 +222,7 @@ namespace paintAplication
             this.pictureBox24.Size = new System.Drawing.Size(19, 19);
             this.pictureBox24.TabIndex = 23;
             this.pictureBox24.TabStop = false;
+            this.pictureBox24.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox23
             // 
@@ -520,6 +233,7 @@ namespace paintAplication
             this.pictureBox23.Size = new System.Drawing.Size(19, 19);
             this.pictureBox23.TabIndex = 22;
             this.pictureBox23.TabStop = false;
+            this.pictureBox23.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox22
             // 
@@ -530,6 +244,7 @@ namespace paintAplication
             this.pictureBox22.Size = new System.Drawing.Size(19, 19);
             this.pictureBox22.TabIndex = 21;
             this.pictureBox22.TabStop = false;
+            this.pictureBox22.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox21
             // 
@@ -540,6 +255,7 @@ namespace paintAplication
             this.pictureBox21.Size = new System.Drawing.Size(19, 19);
             this.pictureBox21.TabIndex = 20;
             this.pictureBox21.TabStop = false;
+            this.pictureBox21.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox20
             // 
@@ -550,6 +266,7 @@ namespace paintAplication
             this.pictureBox20.Size = new System.Drawing.Size(19, 19);
             this.pictureBox20.TabIndex = 19;
             this.pictureBox20.TabStop = false;
+            this.pictureBox20.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox19
             // 
@@ -560,6 +277,7 @@ namespace paintAplication
             this.pictureBox19.Size = new System.Drawing.Size(19, 19);
             this.pictureBox19.TabIndex = 18;
             this.pictureBox19.TabStop = false;
+            this.pictureBox19.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox18
             // 
@@ -570,6 +288,7 @@ namespace paintAplication
             this.pictureBox18.Size = new System.Drawing.Size(19, 19);
             this.pictureBox18.TabIndex = 17;
             this.pictureBox18.TabStop = false;
+            this.pictureBox18.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox17
             // 
@@ -580,6 +299,7 @@ namespace paintAplication
             this.pictureBox17.Size = new System.Drawing.Size(19, 19);
             this.pictureBox17.TabIndex = 16;
             this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox16
             // 
@@ -590,6 +310,7 @@ namespace paintAplication
             this.pictureBox16.Size = new System.Drawing.Size(19, 19);
             this.pictureBox16.TabIndex = 15;
             this.pictureBox16.TabStop = false;
+            this.pictureBox16.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox15
             // 
@@ -600,6 +321,7 @@ namespace paintAplication
             this.pictureBox15.Size = new System.Drawing.Size(19, 19);
             this.pictureBox15.TabIndex = 14;
             this.pictureBox15.TabStop = false;
+            this.pictureBox15.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox14
             // 
@@ -610,6 +332,7 @@ namespace paintAplication
             this.pictureBox14.Size = new System.Drawing.Size(19, 19);
             this.pictureBox14.TabIndex = 13;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox13
             // 
@@ -620,6 +343,7 @@ namespace paintAplication
             this.pictureBox13.Size = new System.Drawing.Size(19, 19);
             this.pictureBox13.TabIndex = 12;
             this.pictureBox13.TabStop = false;
+            this.pictureBox13.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox12
             // 
@@ -630,6 +354,7 @@ namespace paintAplication
             this.pictureBox12.Size = new System.Drawing.Size(19, 19);
             this.pictureBox12.TabIndex = 11;
             this.pictureBox12.TabStop = false;
+            this.pictureBox12.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox11
             // 
@@ -640,6 +365,7 @@ namespace paintAplication
             this.pictureBox11.Size = new System.Drawing.Size(19, 19);
             this.pictureBox11.TabIndex = 10;
             this.pictureBox11.TabStop = false;
+            this.pictureBox11.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox10
             // 
@@ -650,6 +376,7 @@ namespace paintAplication
             this.pictureBox10.Size = new System.Drawing.Size(19, 19);
             this.pictureBox10.TabIndex = 9;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox9
             // 
@@ -660,6 +387,7 @@ namespace paintAplication
             this.pictureBox9.Size = new System.Drawing.Size(19, 19);
             this.pictureBox9.TabIndex = 8;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox8
             // 
@@ -670,6 +398,7 @@ namespace paintAplication
             this.pictureBox8.Size = new System.Drawing.Size(19, 19);
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox7
             // 
@@ -680,6 +409,7 @@ namespace paintAplication
             this.pictureBox7.Size = new System.Drawing.Size(19, 19);
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox6
             // 
@@ -690,6 +420,7 @@ namespace paintAplication
             this.pictureBox6.Size = new System.Drawing.Size(19, 19);
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox5
             // 
@@ -700,6 +431,7 @@ namespace paintAplication
             this.pictureBox5.Size = new System.Drawing.Size(19, 19);
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox4
             // 
@@ -710,6 +442,7 @@ namespace paintAplication
             this.pictureBox4.Size = new System.Drawing.Size(19, 19);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox3
             // 
@@ -720,6 +453,7 @@ namespace paintAplication
             this.pictureBox3.Size = new System.Drawing.Size(19, 19);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox2
             // 
@@ -730,6 +464,7 @@ namespace paintAplication
             this.pictureBox2.Size = new System.Drawing.Size(19, 19);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox1
             // 
@@ -740,6 +475,7 @@ namespace paintAplication
             this.pictureBox1.Size = new System.Drawing.Size(19, 19);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // menuStrip1
             // 
@@ -750,8 +486,8 @@ namespace paintAplication
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(885, 24);
-            this.menuStrip1.TabIndex = 9;
+            this.menuStrip1.Size = new System.Drawing.Size(984, 24);
+            this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripMenuItem1
@@ -771,31 +507,335 @@ namespace paintAplication
             this.newMSI.Name = "newMSI";
             this.newMSI.Size = new System.Drawing.Size(180, 22);
             this.newMSI.Text = "Yeni";
+            this.newMSI.Click += new System.EventHandler(this.newMSI_Click);
+            // 
+            // openMSI
+            // 
+            this.openMSI.Image = global::paintAplication.Properties.Resources.folder;
+            this.openMSI.Name = "openMSI";
+            this.openMSI.Size = new System.Drawing.Size(180, 22);
+            this.openMSI.Text = "Aç";
+            this.openMSI.Click += new System.EventHandler(this.openMSI_Click);
+            // 
+            // saveMSI
+            // 
+            this.saveMSI.Image = global::paintAplication.Properties.Resources.save__1_;
+            this.saveMSI.Name = "saveMSI";
+            this.saveMSI.Size = new System.Drawing.Size(180, 22);
+            this.saveMSI.Text = "Kaydet";
+            this.saveMSI.Click += new System.EventHandler(this.saveMSI_Click);
+            // 
+            // saveAsMSI
+            // 
+            this.saveAsMSI.Image = global::paintAplication.Properties.Resources.icon__2_;
+            this.saveAsMSI.Name = "saveAsMSI";
+            this.saveAsMSI.Size = new System.Drawing.Size(180, 22);
+            this.saveAsMSI.Text = "Farklı Kaydet";
+            this.saveAsMSI.Click += new System.EventHandler(this.saveAsMSI_Click);
+            // 
+            // recentItems
+            // 
+            this.recentItems.Name = "recentItems";
+            this.recentItems.Size = new System.Drawing.Size(88, 20);
+            this.recentItems.Text = "Son Açılanlar";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutMSI});
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.aboutToolStripMenuItem.Text = "Hakkında";
+            // 
+            // aboutMSI
+            // 
+            this.aboutMSI.Name = "aboutMSI";
+            this.aboutMSI.Size = new System.Drawing.Size(188, 22);
+            this.aboutMSI.Text = "About the Developers";
+            this.aboutMSI.Click += new System.EventHandler(this.aboutMSI_Click);
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.AutoSize = false;
+            this.toolStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.pencilBtn,
+            this.toolStripSeparator10,
+            this.toolStripLabel5,
+            this.pencilSize,
+            this.toolStripSeparator11,
+            this.eraserBtn,
+            this.toolStripSeparator12,
+            this.brushBtn,
+            this.toolStripSeparator13,
+            this.toolStripLabel6,
+            this.brushSize,
+            this.toolStripSeparator14,
+            this.toolStripLabel7,
+            this.toolStripSeparator15,
+            this.lineBtn,
+            this.toolStripSeparator16});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(507, 35);
+            this.toolStrip1.TabIndex = 4;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // pencilBtn
+            // 
+            this.pencilBtn.AutoSize = false;
+            this.pencilBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pencilBtn.CheckOnClick = true;
+            this.pencilBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.pencilBtn.Image = ((System.Drawing.Image)(resources.GetObject("pencilBtn.Image")));
+            this.pencilBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.pencilBtn.Name = "pencilBtn";
+            this.pencilBtn.Size = new System.Drawing.Size(30, 30);
+            this.pencilBtn.Text = "toolStripButton1";
+            this.pencilBtn.ToolTipText = "Pencil";
+            this.pencilBtn.Click += new System.EventHandler(this.pencilBtn_Click);
+            // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 35);
+            // 
+            // toolStripLabel5
+            // 
+            this.toolStripLabel5.Name = "toolStripLabel5";
+            this.toolStripLabel5.Size = new System.Drawing.Size(81, 32);
+            this.toolStripLabel5.Text = "Kalem Boyutu";
+            // 
+            // pencilSize
+            // 
+            this.pencilSize.AutoSize = false;
+            this.pencilSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.pencilSize.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3"});
+            this.pencilSize.Name = "pencilSize";
+            this.pencilSize.Size = new System.Drawing.Size(30, 23);
+            this.pencilSize.SelectedIndexChanged += new System.EventHandler(this.pencilSize_SelectedIndexChanged);
+            // 
+            // toolStripSeparator11
+            // 
+            this.toolStripSeparator11.Name = "toolStripSeparator11";
+            this.toolStripSeparator11.Size = new System.Drawing.Size(6, 35);
+            // 
+            // eraserBtn
+            // 
+            this.eraserBtn.AutoSize = false;
+            this.eraserBtn.CheckOnClick = true;
+            this.eraserBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.eraserBtn.Image = ((System.Drawing.Image)(resources.GetObject("eraserBtn.Image")));
+            this.eraserBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.eraserBtn.Name = "eraserBtn";
+            this.eraserBtn.Size = new System.Drawing.Size(30, 30);
+            this.eraserBtn.Text = "toolStripButton2";
+            this.eraserBtn.ToolTipText = "Eraser";
+            this.eraserBtn.Click += new System.EventHandler(this.eraserBtn_Click);
+            // 
+            // toolStripSeparator12
+            // 
+            this.toolStripSeparator12.Name = "toolStripSeparator12";
+            this.toolStripSeparator12.Size = new System.Drawing.Size(6, 35);
+            // 
+            // brushBtn
+            // 
+            this.brushBtn.AutoSize = false;
+            this.brushBtn.CheckOnClick = true;
+            this.brushBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.brushBtn.Image = ((System.Drawing.Image)(resources.GetObject("brushBtn.Image")));
+            this.brushBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.brushBtn.Name = "brushBtn";
+            this.brushBtn.Size = new System.Drawing.Size(30, 30);
+            this.brushBtn.Text = "toolStripButton3";
+            this.brushBtn.ToolTipText = "Brush";
+            this.brushBtn.Click += new System.EventHandler(this.brushBtn_Click);
+            // 
+            // toolStripSeparator13
+            // 
+            this.toolStripSeparator13.Name = "toolStripSeparator13";
+            this.toolStripSeparator13.Size = new System.Drawing.Size(6, 35);
+            // 
+            // toolStripLabel6
+            // 
+            this.toolStripLabel6.Name = "toolStripLabel6";
+            this.toolStripLabel6.Size = new System.Drawing.Size(70, 32);
+            this.toolStripLabel6.Text = "Silgi Boyutu";
+            // 
+            // brushSize
+            // 
+            this.brushSize.AutoSize = false;
+            this.brushSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.brushSize.Items.AddRange(new object[] {
+            "5",
+            "6",
+            "7",
+            "8"});
+            this.brushSize.Name = "brushSize";
+            this.brushSize.Size = new System.Drawing.Size(30, 23);
+            this.brushSize.SelectedIndexChanged += new System.EventHandler(this.brushSize_SelectedIndexChanged);
+            // 
+            // toolStripSeparator14
+            // 
+            this.toolStripSeparator14.Name = "toolStripSeparator14";
+            this.toolStripSeparator14.Size = new System.Drawing.Size(6, 35);
+            // 
+            // toolStripLabel7
+            // 
+            this.toolStripLabel7.Name = "toolStripLabel7";
+            this.toolStripLabel7.Size = new System.Drawing.Size(44, 32);
+            this.toolStripLabel7.Text = "Shapes";
+            // 
+            // toolStripSeparator15
+            // 
+            this.toolStripSeparator15.Name = "toolStripSeparator15";
+            this.toolStripSeparator15.Size = new System.Drawing.Size(6, 35);
+            // 
+            // lineBtn
+            // 
+            this.lineBtn.AutoSize = false;
+            this.lineBtn.CheckOnClick = true;
+            this.lineBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.lineBtn.Image = ((System.Drawing.Image)(resources.GetObject("lineBtn.Image")));
+            this.lineBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.lineBtn.Name = "lineBtn";
+            this.lineBtn.Size = new System.Drawing.Size(30, 30);
+            this.lineBtn.Text = "toolStripButton4";
+            this.lineBtn.ToolTipText = "Line";
+            this.lineBtn.Click += new System.EventHandler(this.lineBtn_Click);
+            // 
+            // toolStripSeparator16
+            // 
+            this.toolStripSeparator16.Name = "toolStripSeparator16";
+            this.toolStripSeparator16.Size = new System.Drawing.Size(6, 35);
+            // 
+            // toolStrip2
+            // 
+            this.toolStrip2.AutoSize = false;
+            this.toolStrip2.BackColor = System.Drawing.Color.Transparent;
+            this.toolStrip2.CanOverflow = false;
+            this.toolStrip2.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.undoButton,
+            this.toolStripSeparator1,
+            this.RedoButton,
+            this.toolStripSeparator2,
+            this.progressBar});
+            this.toolStrip2.Location = new System.Drawing.Point(0, 57);
+            this.toolStrip2.Name = "toolStrip2";
+            this.toolStrip2.Size = new System.Drawing.Size(507, 35);
+            this.toolStrip2.TabIndex = 5;
+            this.toolStrip2.Text = "toolStrip2";
+            // 
+            // undoButton
+            // 
+            this.undoButton.AutoSize = false;
+            this.undoButton.CheckOnClick = true;
+            this.undoButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.undoButton.Image = global::paintAplication.Properties.Resources.icon__1_;
+            this.undoButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.undoButton.Name = "undoButton";
+            this.undoButton.Size = new System.Drawing.Size(30, 30);
+            this.undoButton.Text = "Undo";
+            this.undoButton.ToolTipText = "Undo";
+            this.undoButton.Click += new System.EventHandler(this.undoButton_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 35);
+            // 
+            // RedoButton
+            // 
+            this.RedoButton.AutoSize = false;
+            this.RedoButton.CheckOnClick = true;
+            this.RedoButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.RedoButton.Image = global::paintAplication.Properties.Resources.redo_arrow;
+            this.RedoButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.RedoButton.Name = "RedoButton";
+            this.RedoButton.Size = new System.Drawing.Size(30, 30);
+            this.RedoButton.Text = "Redo";
+            this.RedoButton.ToolTipText = "Redo";
+            this.RedoButton.Click += new System.EventHandler(this.RedoButton_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 35);
+            // 
+            // progressBar
+            // 
+            this.progressBar.AutoSize = false;
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(100, 20);
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.RGBColors);
+            this.panel1.Location = new System.Drawing.Point(903, 27);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(69, 67);
+            this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(4, 45);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = " Edit Colors";
+            // 
+            // RGBColors
+            // 
+            this.RGBColors.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RGBColors.BackgroundImage")));
+            this.RGBColors.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.RGBColors.Location = new System.Drawing.Point(12, 3);
+            this.RGBColors.Name = "RGBColors";
+            this.RGBColors.Size = new System.Drawing.Size(44, 39);
+            this.RGBColors.TabIndex = 0;
+            this.RGBColors.TabStop = false;
+            this.RGBColors.Click += new System.EventHandler(this.RGBColors_Click);
+            // 
+            // paintingCanvas
+            // 
+            this.paintingCanvas.BackColor = System.Drawing.Color.White;
+            this.paintingCanvas.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.paintingCanvas.Location = new System.Drawing.Point(0, 100);
+            this.paintingCanvas.Name = "paintingCanvas";
+            this.paintingCanvas.Size = new System.Drawing.Size(984, 512);
+            this.paintingCanvas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.paintingCanvas.TabIndex = 6;
+            this.paintingCanvas.TabStop = false;
+            this.paintingCanvas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.paintingCanvas_MouseDown);
+            this.paintingCanvas.MouseMove += new System.Windows.Forms.MouseEventHandler(this.paintingCanvas_MouseMove);
+            this.paintingCanvas.MouseUp += new System.Windows.Forms.MouseEventHandler(this.paintingCanvas_MouseUp);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(885, 612);
-            this.Controls.Add(this.toolStrip1);
-            this.Controls.Add(this.toolStrip2);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(984, 612);
             this.Controls.Add(this.paintingCanvas);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.toolStrip2);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Paint";
-            ((System.ComponentModel.ISupportInitialize)(this.RGBColors)).EndInit();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
-            this.toolStrip2.ResumeLayout(false);
-            this.toolStrip2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.paintingCanvas)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
@@ -827,47 +867,22 @@ namespace paintAplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.toolStrip2.ResumeLayout(false);
+            this.toolStrip2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RGBColors)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.paintingCanvas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox RGBColors;
-        private System.Windows.Forms.ToolStripMenuItem saveAsMSI;
-        private System.Windows.Forms.ToolStripMenuItem recentItems;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutMSI;
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton pencilBtn;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel5;
-        private System.Windows.Forms.ToolStripComboBox pencilSize;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
-        private System.Windows.Forms.ToolStripButton eraserBtn;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
-        private System.Windows.Forms.ToolStripButton brushBtn;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel6;
-        private System.Windows.Forms.ToolStripComboBox brushSize;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator14;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel7;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator15;
-        private System.Windows.Forms.ToolStripButton lineBtn;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator16;
-        private System.Windows.Forms.ToolStrip toolStrip2;
-        private System.Windows.Forms.ToolStripButton undoButton;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripButton RedoButton;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripProgressBar progressBar;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ToolStripMenuItem saveMSI;
-        private System.Windows.Forms.PictureBox paintingCanvas;
-        private System.Windows.Forms.ToolStripMenuItem openMSI;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox28;
         private System.Windows.Forms.PictureBox pictureBox27;
         private System.Windows.Forms.PictureBox pictureBox26;
@@ -895,10 +910,42 @@ namespace paintAplication
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton pencilBtn;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel5;
+        private System.Windows.Forms.ToolStripComboBox pencilSize;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
+        private System.Windows.Forms.ToolStripButton eraserBtn;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
+        private System.Windows.Forms.ToolStripButton brushBtn;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel6;
+        private System.Windows.Forms.ToolStripComboBox brushSize;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator14;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel7;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator15;
+        private System.Windows.Forms.ToolStripButton lineBtn;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator16;
+        private System.Windows.Forms.ToolStrip toolStrip2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox RGBColors;
+        private System.Windows.Forms.ToolStripButton undoButton;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripButton RedoButton;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem newMSI;
+        private System.Windows.Forms.ToolStripMenuItem openMSI;
+        private System.Windows.Forms.ToolStripMenuItem saveMSI;
+        private System.Windows.Forms.ToolStripMenuItem saveAsMSI;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutMSI;
+        private System.Windows.Forms.PictureBox paintingCanvas;
+        private System.Windows.Forms.ToolStripMenuItem recentItems;
+        private System.Windows.Forms.ToolStripProgressBar progressBar;
     }
 }
 
