@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F15B06E-5F2D-45C4-83D3-0AACC0AA79F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PaintAplication</RootNamespace>
+    <AssemblyName>PaintAplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Docking">
+      <HintPath>..\..\..\..\..\Desktop\Krypton-master\Bin\ComponentFactory.Krypton.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Navigator">
+      <HintPath>..\..\..\..\..\Desktop\Krypton-master\Bin\ComponentFactory.Krypton.Navigator.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Ribbon">
+      <HintPath>..\..\..\..\..\Desktop\Krypton-master\Bin\ComponentFactory.Krypton.Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\..\..\..\Desktop\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Workspace">
+      <HintPath>..\..\..\..\..\Desktop\Krypton-master\Bin\ComponentFactory.Krypton.Workspace.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.26.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="SKGL, Version=2.0.4.1, Culture=neutral, PublicKeyToken=6506df92444891d9, processorArchitecture=MSIL">
+      <HintPath>..\packages\SoftwareProtector.1.0.5.1\lib\SKGL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes\dbBaglanti.cs" />
+    <Compile Include="classes\Efektler.cs" />
+    <Compile Include="classes\Kullanici_islemleri.cs" />
+    <Compile Include="DemoForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoForm1.Designer.cs">
+      <DependentUpon>DemoForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PremiumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PremiumForm.Designer.cs">
+      <DependentUpon>PremiumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="K_giris_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="K_giris_form.Designer.cs">
+      <DependentUpon>K_giris_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LisansAktiflestirForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LisansAktiflestirForm.Designer.cs">
+      <DependentUpon>LisansAktiflestirForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classes\Points.cs" />
+    <Compile Include="classes\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SatinAl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatinAl.Designer.cs">
+      <DependentUpon>SatinAl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatınAlForm.cs" />
+    <Compile Include="SifremiUnuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SifremiUnuttum.Designer.cs">
+      <DependentUpon>SifremiUnuttum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UyeOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeOl.Designer.cs">
+      <DependentUpon>UyeOl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DemoForm1.resx">
+      <DependentUpon>DemoForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PremiumForm.resx">
+      <DependentUpon>PremiumForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="K_giris_form.resx">
+      <DependentUpon>K_giris_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LisansAktiflestirForm.resx">
+      <DependentUpon>LisansAktiflestirForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatinAl.resx">
+      <DependentUpon>SatinAl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SifremiUnuttum.resx">
+      <DependentUpon>SifremiUnuttum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UyeOl.resx">
+      <DependentUpon>UyeOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-erase-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paint-brush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil-edit-button %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil-edit-button %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagonal-line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000px-RGB_color_wheel_36.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorgrid.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rgb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_colormap.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil_B9N_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paintbrushIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraserIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencilIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kapat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lisansaktifbackraund.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elipse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ellipse-icon-16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Windows-8-Editing-Ellipse-Stroked.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resetpass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LINCENSE.txt" />
+    <None Include="Resources\833432.jpg" />
+    <None Include="Resources\close-btn-demo.png" />
+    <None Include="Resources\max-btn-demo.png" />
+    <None Include="Resources\mc-green.png" />
+    <None Include="Resources\mc-red.png" />
+    <None Include="Resources\mc-yellw.png" />
+    <None Include="Resources\Programming-Delete-Sign-icon.png" />
+    <None Include="Resources\sign-error-icon %281%29.png" />
+    <None Include="Resources\sign-error-icon.png" />
+    <None Include="Resources\Usability testing-amico.png" />
+    <None Include="Resources\buy.jpg" />
+    <None Include="Resources\buyy1.jpg" />
+    <Content Include="Software Protector.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
